@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-image: url(sunset-6361127.jpg);
+    margin: 0;
+    font-family: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    background-size: cover;
+}
+
+header {
+    height: 93px;
+    width: 100%;
+    background-color: rgba(2, 33, 48, 0.582);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 400px 0 30px 0;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+    font-size: 24px;
+}
+
+.jelajahi {
+    padding: 15px 27px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f3fdfa2a;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+p {
+    width: 180px;
+    margin-top: 25px;
+    color: white;
+    font-size: 27px;
+}
+
+.header-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 93px;
+    padding:  0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-size: 18px;
+}
+
+.header-right a:hover {
+    background-color: rgba(2, 33, 48, 0.521);
+}
